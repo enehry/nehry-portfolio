@@ -13,14 +13,14 @@
             on Java and gaining expertise in object-oriented principles. With
             additional languages like PHP, JS, HTML, and CSS, I developed an
             Enrollment System for my school as a research using my own PHP MVC
-            framework. Graduating with High Honors and a 95% GPA, I continued to
+            framework. Graduating with High Honors and a 95% GWA, I continued to
             excel in college, mastering C# programming and databases like MySQL,
             MSSQL, SQLITE, Firebase, and Hive. I self-taught Flutter and began
             freelancing, creating "Math Pics One Word," an app that helped
             elementary students learn algebraic concepts. Through tutoring and
             project assistance, I honed my skills in Laravel, Express.js,
             Flutter, Vue.js, and React.js. Now nearing graduation in Information
-            Technology with a remarkable 1.23 GPA, I am proud of my Cum Laude
+            Technology with a remarkable 1.23 QPA, I am proud of my Cum Laude
             distinction, Service and Proficiency awards, and 3rd place in a
             regional C# Programming competition. My capstone project, Eprodel,
             won Best in Developmental Study, automating the dean's list,
@@ -118,7 +118,7 @@
               <h3
                 class="mb-1 text-base font-semibold text-gray-900 dark:text-gray-400"
               >
-                Bachelor of Science in Information Technology (GWA 1.23)
+                Bachelor of Science in Information Technology (QPA 1.23)
               </h3>
               <time
                 class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -144,7 +144,7 @@
                   Resource Speaker Introduction to Flutter Mobile Application
                   Development (URS)
                 </li>
-                <li>1st yr - 4th yr Dean's Lister 1.27 - 1.17 QPA</li>
+                <li>1st yr - 4th yr Dean's Lister 1.27 - 1.17 GWA</li>
               </ul>
             </div>
           </li>
