@@ -13,7 +13,7 @@
           @click="onClick(index)"
         >
           <a :href="`#${item.link}`">
-            <component :is="item.icon"></component>
+            <component :is="item.icon" />
           </a>
           <span v-if="index === selectedIndex" class="font-semibold">
             {{ item.title }}
@@ -29,7 +29,10 @@
 
 <script setup lang="ts">
 import { Navdata } from "@/interfaces";
-import { HomeIcon, AboutIcon, ContactIcon, ProjectsIcon } from "@/icons";
+import HomeIcon from "@/components/icons/HomeIcon.vue";
+import AboutIcon from "@/components/icons/AboutIcon.vue";
+import ProjectsIcon from "@/components/icons/ProjectsIcon.vue";
+import ContactIcon from "@/components/icons/ContactIcon.vue";
 
 const navList = ref<Navdata[]>([
   {

@@ -15,7 +15,7 @@
     >
       <div class="space-y-2">
         <h2 class="text-2xl">Greetings, Earthlings!</h2>
-        <h1 class="font-black text-7xl dark:text-gray-300 glow-text">
+        <h1 class="font-black text-7xl dark:text-gray-300 dark:glow-text">
           I'm Nehry Dedoro
         </h1>
         <TextTyping />
@@ -148,31 +148,7 @@
 <script setup></script>
 
 <style scoped>
-@keyframes glowing {
-  0% {
-    text-shadow: 0 0 2px #fff;
-  }
-  25% {
-    text-shadow: 0 0 4px #fff;
-  }
-  35% {
-    text-shadow: 0 0 6px #fff;
-  }
-  50% {
-    text-shadow: 0 0 8px #5c99f2;
-  }
-  75% {
-    text-shadow: 0 0 6px #fff;
-  }
-  85% {
-    text-shadow: 0 0 4px #fff;
-  }
-  100% {
-    text-shadow: 0 0 2px #fff;
-  }
-}
-
 .glow-text {
-  animation: glowing 4s linear infinite;
+  text-shadow: 0 0 8px rgb(184, 184, 255);
 }
 </style>
