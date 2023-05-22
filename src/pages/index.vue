@@ -2,6 +2,7 @@
   <div class="mx-auto max-w-7xl xl:px-0 px-4">
     <HeroSection />
     <AboutMe />
+    <Projects />
   </div>
 </template>
 

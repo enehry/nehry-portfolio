@@ -15,7 +15,7 @@
     >
       <div class="space-y-2">
         <h2 class="text-2xl">Greetings, Earthlings!</h2>
-        <h1 class="font-black text-7xl dark:text-gray-300 dark:glow-text">
+        <h1 class="font-bold text-7xl dark:text-gray-300 dark:glow-text">
           I'm Nehry Dedoro
         </h1>
         <TextTyping />

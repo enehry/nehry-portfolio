@@ -1,14 +1,25 @@
 <template>
-  <div class="xl:mt-0 mt-28 space-y-8 min-h-screen" id="about-me">
-    <div class="mx-auto w-full">
-      <div class="text-2xl font-semibold text-center dark:text-gray-300">
+  <div class="xl:mt-0 mt-28 min-h-screen" id="about-me">
+    <div class="mx-auto w-full lg:mb-28 mb-4">
+      <h1 class="text-4xl font-semibold text-center dark:text-gray-300">
         About Me
-      </div>
+      </h1>
+      <p class="text-center dark:text-gray-400 text-gray-500">
+        I'm a full-stack developer with a passion for creating innovative
+        solutions that transcend the boundaries of possibility.
+      </p>
     </div>
-    <div class="flex lg:gap-40 gap-8 lg:flex-row flex-col dark:text-gray-400">
-      <div class="flex-1 xl:mt-14 space-y-8">
+    <div
+      class="flex lg:gap-40 gap-8 lg:flex-row flex-col text-gray-700 dark:text-gray-400"
+    >
+      <div class="flex-1 space-y-8">
         <div>
-          <p class="text-sm" data-aos="fade-up">
+          <h3
+            class="lg:mb-4 mb-0 font-semibold text-xl text-gray-900 dark:text-gray-300"
+          >
+            Me
+          </h3>
+          <p class="" data-aos="fade-up">
             I began my programming journey during senior high school, focusing
             on Java and gaining expertise in object-oriented principles. With
             additional languages like PHP, JS, HTML, and CSS, I developed an
@@ -29,8 +40,12 @@
             MySQL, all guided by REST principles.
           </p>
         </div>
-        <div class="text-sm">
-          <h3 class="mb-4 font-bold text-base">Work Experience</h3>
+        <div class="">
+          <h3
+            class="mb-4 font-semibold text-xl text-gray-900 dark:text-gray-300"
+          >
+            Work Experience
+          </h3>
           <div>
             <ul class="space-y-4">
               <li class="grid grid-cols-3 group">
@@ -39,7 +54,9 @@
                 </div>
                 <div class="col-span-2 space-y-2">
                   <glowing-effect data-aos-delay="50" data-aos="fade-right"
-                    ><h4 class="font-bold border-2 rounded-full px-4 py-1">
+                    ><h4
+                      class="font-bold border-2 rounded-full px-4 py-1 text-sm"
+                    >
                       Software Developer Intern - Calcmenu Phil. Inc.
                     </h4>
                   </glowing-effect>
@@ -58,7 +75,9 @@
                 </div>
                 <div class="col-span-2 space-y-2">
                   <glowing-effect data-aos-delay="50" data-aos="fade-right"
-                    ><h4 class="font-bold border-2 rounded-full px-4 py-1">
+                    ><h4
+                      class="font-bold border-2 rounded-full px-4 py-1 text-sm"
+                    >
                       Freelancer Full Stack Developer - Self Employed
                     </h4>
                   </glowing-effect>
@@ -78,7 +97,7 @@
         </div>
       </div>
       <div class="flex-1 ml-4">
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-gray-400">
+        <h3 class="mb-1 text-xl font-semibold text-gray-900 dark:text-gray-300">
           Education
         </h3>
         <ol
@@ -121,14 +140,14 @@
                 Bachelor of Science in Information Technology (QPA 1.23)
               </h3>
               <time
-                class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
                 >2019 - 2023</time
               >
-              <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+              <p class="font-normal text-gray-900 dark:text-gray-400">
                 University of Rizal System Binagonan Rizal
               </p>
               <ul
-                class="list-disc list-inside text-sm font-normal text-gray-500 dark:text-gray-400"
+                class="list-disc list-inside font-normal text-gray-900 dark:text-gray-400"
               >
                 <li class="">Cum Laude</li>
                 <li class="">Service Award</li>
@@ -186,14 +205,14 @@
                 Information Communication Technology (GWA 95%)
               </h3>
               <time
-                class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
                 >2017 - 2019</time
               >
-              <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+              <p class="font-normal text-gray-900 dark:text-gray-400">
                 Angono National High School
               </p>
               <ul
-                class="list-disc list-inside text-sm font-normal text-gray-500 dark:text-gray-400"
+                class="list-disc list-inside font-normal text-gray-900 dark:text-gray-400"
               >
                 <li class="">High Honors</li>
                 <li class="">Conduct Award</li>

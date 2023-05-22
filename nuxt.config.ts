@@ -1,8 +1,12 @@
-import { title } from "process";
-
 export default defineNuxtConfig({
   srcDir: 'src/',
   ssr: false,
+  runtimeConfig: {
+    public: {
+      CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+      CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
+    }
+  },
   app: {
     head: {
       charset: 'utf-8',
@@ -15,6 +19,7 @@ export default defineNuxtConfig({
   ],
   plugins: [
     { src: '~/plugins/aos', mode: 'client' },
+    { src: '~/plugins/contentful', mode: 'client' },
   ],
   postcss: {
     plugins: {
