@@ -6,6 +6,8 @@
 </template>
 
 <script setup>
+import profilePic from "~/assets/images/nehry.jpg";
+
 onMounted(() => {
   // check if dark mode is enabled on local storage
   if (
@@ -17,6 +19,21 @@ onMounted(() => {
   } else {
     document.documentElement.classList.remove("dark");
   }
+});
+
+useSeoMeta({
+  title: "John Nehry Dedoro | Portfolio",
+  ogTitle: "John Nehry Dedoro | Portfolio",
+  description:
+    "A Full Stack Developer from the Philippines. Fuelled by an insatiable curiosity, I constantly explore the ever-expanding universe of technology and it's galactic information. Just as galaxies collide and form new wonders, I blend my diverse skills and experiences to create innovative solutions that transcend the boundaries of possibility",
+  ogDescription:
+    "A Full Stack Developer from the Philippines. Fuelled by an insatiable curiosity, I constantly explore the ever-expanding universe of technology and it's galactic information. Just as galaxies collide and form new wonders, I blend my diverse skills and experiences to create innovative solutions that transcend the boundaries of possibility",
+  ogImage: profilePic,
+  ogUrl: "https://nehrydedoro.me/",
+  ogType: "website",
+  ogSiteName: "John Nehry Dedoro | Portfolio",
+  ogLocale: "en_US",
+  twitterCard: "summary_large_image",
 });
 </script>
 <style scoped></style>

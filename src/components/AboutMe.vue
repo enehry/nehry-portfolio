@@ -1,12 +1,12 @@
 <template>
-  <div class="space-y-8 min-h-screen" id="about-me">
+  <div class="xl:mt-0 mt-28 space-y-8 min-h-screen" id="about-me">
     <div class="mx-auto w-full">
       <div class="text-2xl font-semibold text-center dark:text-gray-300">
         About Me
       </div>
     </div>
     <div class="flex lg:gap-40 gap-8 lg:flex-row flex-col dark:text-gray-400">
-      <div class="flex-1 mt-14 space-y-8">
+      <div class="flex-1 xl:mt-14 space-y-8">
         <div>
           <p class="text-sm" data-aos="fade-up">
             I began my programming journey during senior high school, focusing

@@ -41,9 +41,9 @@
     </div>
 
     <div class="flex-1 h-96">
-      <div class="relative h-full flex items-center justify-center flex-1">
+      <div class="relative flex h-full items-center justify-center">
         <div
-          class="absolute h-52 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-52 rounded-full -top-5 left-24"
+          class="absolute sm:h-52 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b sm:w-52 rounded-full -top-5 left-24"
         >
           <div class="lg:mx-0 mx-auto relative group">
             <div
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div
-          class="absolute h-36 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-36 rounded-full -bottom-12 left-48"
+          class="absolute sm:h-36 h-20 w-20 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b sm:w-36 rounded-full -bottom-12 left-48"
         >
           <div class="lg:mx-0 mx-auto relative group">
             <div
@@ -126,7 +126,6 @@
             />
           </div>
         </div>
-
         <div
           class="z-10"
           data-aos="fade-up"
@@ -136,7 +135,7 @@
           data-aos-once="false"
         >
           <img
-            class="h-72 w-72 rounded-full border-stone-700 border-2"
+            class="h-52 w-52 relative rounded-full border-stone-700 border-2 sm:h-72 sm:w-72"
             src="~/assets/images/nehry.jpg"
             alt="hero"
           />
