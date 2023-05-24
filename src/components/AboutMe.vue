@@ -1,21 +1,22 @@
 <template>
-  <div class="xl:mt-0 mt-28 min-h-screen" id="about-me">
-    <div class="mx-auto w-full lg:mb-28 mb-4">
-      <h1 class="text-4xl font-semibold text-center dark:text-gray-300">
+  <div id="about-me"></div>
+  <div class="mt-28 min-h-screen">
+    <div class="mx-auto mb-4 w-full lg:mb-28">
+      <h1 class="text-center text-4xl font-semibold dark:text-gray-300">
         About Me
       </h1>
-      <p class="text-center dark:text-gray-400 text-gray-500">
+      <p class="text-center text-gray-500 dark:text-gray-400">
         I'm a full-stack developer with a passion for creating innovative
         solutions that transcend the boundaries of possibility.
       </p>
     </div>
     <div
-      class="flex lg:gap-40 gap-8 lg:flex-row flex-col text-gray-700 dark:text-gray-400"
+      class="flex flex-col gap-8 text-gray-700 dark:text-gray-400 lg:flex-row lg:gap-40"
     >
       <div class="flex-1 space-y-8">
         <div>
           <h3
-            class="lg:mb-4 mb-0 font-semibold text-xl text-gray-900 dark:text-gray-300"
+            class="mb-0 text-xl font-semibold text-gray-900 dark:text-gray-300 lg:mb-4"
           >
             Me
           </h3>
@@ -42,20 +43,20 @@
         </div>
         <div class="">
           <h3
-            class="mb-4 font-semibold text-xl text-gray-900 dark:text-gray-300"
+            class="mb-4 text-xl font-semibold text-gray-900 dark:text-gray-300"
           >
             Work Experience
           </h3>
           <div>
             <ul class="space-y-4">
-              <li class="grid grid-cols-3 group">
+              <li class="group grid grid-cols-3">
                 <div class="w-full" data-aos="fade-right">
                   <p>Jan - Apr 2023</p>
                 </div>
                 <div class="col-span-2 space-y-2">
                   <glowing-effect data-aos-delay="50" data-aos="fade-right"
                     ><h4
-                      class="font-bold border-2 rounded-full px-4 py-1 text-sm"
+                      class="rounded-full border-2 px-4 py-1 text-sm font-bold"
                     >
                       Software Developer Intern - Calcmenu Phil. Inc.
                     </h4>
@@ -69,14 +70,14 @@
                   </p>
                 </div>
               </li>
-              <li class="grid grid-cols-3 group">
+              <li class="group grid grid-cols-3">
                 <div class="w-full" data-aos="fade-right">
                   <p>2021 - 2023</p>
                 </div>
                 <div class="col-span-2 space-y-2">
                   <glowing-effect data-aos-delay="50" data-aos="fade-right"
                     ><h4
-                      class="font-bold border-2 rounded-full px-4 py-1 text-sm"
+                      class="rounded-full border-2 px-4 py-1 text-sm font-bold"
                     >
                       Freelancer Full Stack Developer - Self Employed
                     </h4>
@@ -96,17 +97,17 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 ml-4">
+      <div class="ml-4 flex-1">
         <h3 class="mb-1 text-xl font-semibold text-gray-900 dark:text-gray-300">
           Education
         </h3>
         <ol
-          class="relative border-l border-gray-200 dark:border-gray-700 pl-8 ml-2 mt-8"
+          class="relative ml-2 mt-8 border-l border-gray-200 pl-8 dark:border-gray-700"
         >
-          <li class="mb-10 ml-6 group">
+          <li class="group mb-10 ml-6">
             <span
               data-aos="fade-up"
-              class="absolute flex items-center justify-center w-10 h-10 rounded-full -left-5 bg-gray-100 border-2 border-white shadow-xl dark:bg-gray-900"
+              class="absolute -left-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-gray-100 shadow-xl dark:bg-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +115,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-5 h-5 dark:hidden block"
+                class="block h-5 w-5 dark:hidden"
               >
                 <path
                   stroke-linecap="round"
@@ -122,12 +123,12 @@
                   d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
                 />
               </svg>
-              <div class="lg:mx-0 mx-auto group relative hidden dark:block">
+              <div class="group relative mx-auto hidden dark:block lg:mx-0">
                 <div
-                  class="absolute -inset-1 dark:bg-gradient-to-r from-gray-200 to-gray-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+                  class="absolute -inset-1 rounded-full from-gray-200 to-gray-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
                 ></div>
                 <img
-                  class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+                  class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
                   src="~/assets/images/moon.png"
                   alt="hero"
                 />
@@ -140,14 +141,14 @@
                 Bachelor of Science in Information Technology (QPA 1.23)
               </h3>
               <time
-                class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
                 >2019 - 2023</time
               >
               <p class="font-normal text-gray-900 dark:text-gray-400">
                 University of Rizal System Binagonan Rizal
               </p>
               <ul
-                class="list-disc list-inside font-normal text-gray-900 dark:text-gray-400"
+                class="list-inside list-disc font-normal text-gray-900 dark:text-gray-400"
               >
                 <li class="">Cum Laude</li>
                 <li class="">Service Award</li>
@@ -167,11 +168,11 @@
               </ul>
             </div>
           </li>
-          <li class="mb-10 ml-6 group">
+          <li class="group mb-10 ml-6">
             <span
               data-aos="fade-up"
               data-aos-delay="150"
-              class="absolute flex items-center justify-center w-10 h-10 rounded-full -left-5 bg-gray-100 border-2 border-white shadow-xl dark:bg-gray-900"
+              class="absolute -left-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-gray-100 shadow-xl dark:bg-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +180,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-5 h-5 dark:hidden block"
+                class="block h-5 w-5 dark:hidden"
               >
                 <path
                   stroke-linecap="round"
@@ -187,12 +188,12 @@
                   d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
                 />
               </svg>
-              <div class="lg:mx-0 mx-auto group relative hidden dark:block">
+              <div class="group relative mx-auto hidden dark:block lg:mx-0">
                 <div
-                  class="absolute -inset-1 dark:bg-gradient-to-r from-yellow-500 to-yellow-300 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+                  class="absolute -inset-1 rounded-full from-yellow-500 to-yellow-300 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
                 ></div>
                 <img
-                  class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+                  class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
                   src="~/assets/images/sun.png"
                   alt="hero"
                 />
@@ -205,14 +206,14 @@
                 Information Communication Technology (GWA 95%)
               </h3>
               <time
-                class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-500"
                 >2017 - 2019</time
               >
               <p class="font-normal text-gray-900 dark:text-gray-400">
                 Angono National High School
               </p>
               <ul
-                class="list-disc list-inside font-normal text-gray-900 dark:text-gray-400"
+                class="list-inside list-disc font-normal text-gray-900 dark:text-gray-400"
               >
                 <li class="">High Honors</li>
                 <li class="">Conduct Award</li>

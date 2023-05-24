@@ -1,5 +1,6 @@
 <template>
-  <div class="mt-24 min-h-screen space-y-8" id="projects">
+  <div id="projects"></div>
+  <div class="mt-24 min-h-screen space-y-8">
     <!-- <div class="inline-flex items-center justify-center w-full gap-8"> -->
     <div class="">
       <!-- <hr class="w-64 h-1 bg-gray-200 border-0 rounded-full dark:bg-gray-700" /> -->
@@ -99,7 +100,7 @@
                   class="relative max-w-xs overflow-hidden rounded-md bg-cover bg-no-repeat"
                 >
                   <img
-                    class="max-w-xs transition duration-500 ease-in-out group-hover:scale-110"
+                    class="h-[180px] w-full max-w-xs object-cover transition duration-500 ease-in-out group-hover:scale-110"
                     :src="`${project.image.fields?.file?.url}`"
                     :alt="`${project.image.fields?.file?.url}`"
                   />

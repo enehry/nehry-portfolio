@@ -1,7 +1,7 @@
 <template>
   <div
     id="home"
-    class="flex xl:flex-row lg:-mt-20 mt-0 flex-col-reverse items-center justify-center lg:h-screen h-full"
+    class="mt-0 flex h-full flex-col-reverse items-center justify-center lg:-mt-20 lg:h-screen xl:flex-row"
   >
     <div
       data-aos="fade-right"
@@ -11,11 +11,11 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       data-aos-once="false"
-      class="flex-1 space-y-8 xl:text-left text-center xl:mt-0 mt-24 dark:text-gray-400"
+      class="mt-24 flex-1 space-y-8 text-center dark:text-gray-400 xl:mt-0 xl:text-left"
     >
       <div class="space-y-2">
         <h2 class="text-2xl">Greetings, Earthlings!</h2>
-        <h1 class="font-bold text-7xl dark:text-gray-300 dark:glow-text">
+        <h1 class="dark:glow-text text-7xl font-bold dark:text-gray-300">
           I'm Nehry Dedoro
         </h1>
         <TextTyping />
@@ -28,99 +28,101 @@
         boundaries of possibility
       </p>
 
-      <div class="xl:mx-0 mx-auto relative group w-36">
+      <div class="group relative mx-auto w-36 xl:mx-0">
         <div
-          class="absolute -inset-1 dark:bg-gradient-to-r from-yellow-600 to-yellow-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+          class="absolute -inset-1 rounded-full from-yellow-600 to-yellow-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
         ></div>
-        <button
-          class="dark:bg-gray-900 dark:text-gray-500 shadow-lg dark:shadow-none border-2 border-white dark:border-0 bg-gray-100 flex items-center justify-center w-full relative px-4 py-4 rounded-full ring-1 ring-gray-900/5 leading-none font-semibold text-sm text-gray-900 transition duration-200 ease-in-out dark:group-hover:ring-2 dark:group-hover:ring-gray-900 dark:group-hover:text-white"
+        <a
+          href="~/assets/files/John_Nehry_C_Dedoro_Resume.pdf"
+          download
+          class="relative flex w-full items-center justify-center rounded-full border-2 border-white bg-gray-100 px-4 py-4 text-sm font-semibold leading-none text-gray-900 shadow-lg ring-1 ring-gray-900/5 transition duration-200 ease-in-out dark:border-0 dark:bg-gray-900 dark:text-gray-500 dark:shadow-none dark:group-hover:text-white dark:group-hover:ring-2 dark:group-hover:ring-gray-900"
         >
           Download CV
-        </button>
+        </a>
       </div>
     </div>
 
-    <div class="flex-1 h-96">
+    <div class="h-96 flex-1">
       <div class="relative flex h-full items-center justify-center">
         <div
-          class="absolute sm:h-52 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b sm:w-52 rounded-full -top-5 left-24"
+          class="absolute -top-5 left-24 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none sm:h-52 sm:w-52"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-red-600 to-yellow-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="absolute -inset-1 rounded-full from-red-600 to-yellow-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/planet_5.png"
               alt="hero"
             />
           </div>
         </div>
         <div
-          class="absolute h-32 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-32 rounded-full bottom-16 right-16"
+          class="absolute bottom-16 right-16 h-32 w-32 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-blue-600 to-blue-300 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="absolute -inset-1 rounded-full from-blue-600 to-blue-300 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/planet_4.png"
               alt="hero"
             />
           </div>
         </div>
         <div
-          class="absolute sm:h-36 h-20 w-20 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b sm:w-36 rounded-full -bottom-12 left-48"
+          class="absolute -bottom-12 left-48 h-20 w-20 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none sm:h-36 sm:w-36"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-red-600 to-orange-300 rounded-full blur-lg opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="absolute -inset-1 rounded-full from-red-600 to-orange-300 opacity-25 blur-lg transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/planet_3.png"
               alt="hero"
             />
           </div>
         </div>
         <div
-          class="absolute h-20 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-20 rounded-full bottom-20 left-24"
+          class="absolute bottom-20 left-24 h-20 w-20 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-gray-200 to-gray-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="absolute -inset-1 rounded-full from-gray-200 to-gray-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/moon.png"
               alt="hero"
             />
           </div>
         </div>
         <div
-          class="absolute h-12 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-12 rounded-full bottom-2 left-28"
+          class="absolute bottom-2 left-28 h-12 w-12 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-purple-600-600 to-pink-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="from-purple-600-600 absolute -inset-1 rounded-full to-pink-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/planet_1.png"
               alt="hero"
             />
           </div>
         </div>
         <div
-          class="absolute h-10 dark:bg-none from-[#FFE99A] to-[#FFF6D6] bg-gradient-to-b w-10 rounded-full -bottom-4 left-12"
+          class="absolute -bottom-4 left-12 h-10 w-10 rounded-full bg-gradient-to-b from-[#FFE99A] to-[#FFF6D6] dark:bg-none"
         >
-          <div class="lg:mx-0 mx-auto relative group">
+          <div class="group relative mx-auto lg:mx-0">
             <div
-              class="absolute -inset-1 dark:bg-gradient-to-r from-blue-600 to-blue-100 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"
+              class="absolute -inset-1 rounded-full from-blue-600 to-blue-100 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200 dark:bg-gradient-to-r"
             ></div>
             <img
-              class="dark:block hidden w-full h-full object-contain transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-12"
+              class="hidden h-full w-full transform object-contain transition-all duration-500 ease-in-out hover:rotate-12 hover:scale-110 dark:block"
               src="~/assets/images/planet_0.png"
               alt="hero"
             />
@@ -135,7 +137,7 @@
           data-aos-once="false"
         >
           <img
-            class="h-52 w-52 relative rounded-full border-stone-700 border-2 sm:h-72 sm:w-72"
+            class="relative h-52 w-52 rounded-full border-2 border-stone-700 sm:h-72 sm:w-72"
             src="~/assets/images/nehry.jpg"
             alt="hero"
           />
