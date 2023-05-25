@@ -96,11 +96,9 @@
                     </a>
                   </div>
                 </div>
-                <div
-                  class="relative max-w-xs overflow-hidden rounded-md bg-cover bg-no-repeat"
-                >
+                <div class="relative max-w-xs overflow-hidden rounded-md">
                   <img
-                    class="h-[180px] w-full max-w-xs object-cover transition duration-500 ease-in-out group-hover:scale-110"
+                    class="h-[180px] max-w-xs object-cover transition duration-500 ease-in-out group-hover:scale-110"
                     :src="`${project.image.fields?.file?.url}`"
                     :alt="`${project.image.fields?.file?.url}`"
                   />
